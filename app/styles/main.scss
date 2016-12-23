@@ -1,0 +1,33 @@
+// $icon-font-path: '../fonts/MyriadPro';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import 'fontface';
+@include fontFace('../fonts/MyriadPro');
+
+@import 'variables';
+
+@import 'base';
+
+@import 'home';
+
+@import 'multiscroll';
+
+@import 'services';
+
+@import 'form';
+
+@import 'social';
+
+@import 'timeline';
+
+@import 'testimonial';
+
+@import 'step';
+
+@import 'about';
+
+@import 'spinner';
+@import url(http://weloveiconfonts.com/api/?family=entypo);

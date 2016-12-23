@@ -1,0 +1,28 @@
+.ms-section .services{
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fullscreen .title h1{
+      color: $green-dark-color;
+}
+
+.thumbnail{ 
+    background-color: transparent;
+    border: none;
+    margin-bottom: -40px;
+
+    h3{
+    	color: $green-dark-color;
+        margin-top: 5px !important;
+        font-weight: bold !important;
+    }
+
+    .caption p{
+        font-size: 16px;
+        font-style: italic;
+        color: #5d7628;
+    }
+}
+

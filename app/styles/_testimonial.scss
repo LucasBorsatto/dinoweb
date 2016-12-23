@@ -1,0 +1,102 @@
+.frases{
+    margin-top: 260px;
+    margin-bottom: 30px;
+
+    .title-light{
+        color: #ffffca !important;
+        margin-right: 90px;
+    }
+}
+.testimonial{
+    margin: 20px 15px 0;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid #fff;
+    box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+.testimonial .pic:after{
+    content: "\f10d";
+    font-family: fontawesome;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background: #33d286;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    max-height: 100% !important;
+    top: 0 !important;
+    border-radius: 50%;
+}
+.testimonial .testimonial-content{
+    padding: 10px;
+    margin-left: 120px;
+}
+.testimonial .description{
+    font-size: 17px;
+    color: #333333;
+    line-height: 22px;
+    font-style: italic;
+}
+.testimonial .testimonial-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.testimonial .post{
+    font-size: 14px;
+    font-style: italic;
+    color: #444;
+    margin-top: 10px;
+}
+.owl-theme .owl-buttons{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    padding: 5px 10px;
+    background: #ffffca;
+    border-radius: 0;
+    opacity: 1;
+    border-bottom: 2px solid #607829;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+    background: #333333;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: 'FontAwesome';
+    color: #607829;
+}
+.owl-next:before{
+    content: "\f054";
+}
+@media only screen and (max-width: 480px) {
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial .pic{
+        float: none;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-content{
+        margin-left: 0;
+    }
+    .owl-theme .owl-buttons{
+        margin-top: 0;
+    }
+}

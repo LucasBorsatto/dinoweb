@@ -1,0 +1,23 @@
+.multiscroll-tooltip.right {
+      color: $green-dark-color !important;
+      font-weight: bold;
+}
+
+.ms-section .title{
+  padding-left: 80px;
+  padding-right: 80px;
+  text-transform: uppercase; 
+
+   h1{
+      font-size:5em;
+      font-weight: bold;
+  }
+}
+
+#multiscroll-nav li .active span {
+    background: #607829 !important;
+}
+
+#multiscroll-nav span {
+    border: 1px solid #607829 !important;
+}
