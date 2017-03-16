@@ -1,5 +1,43 @@
 .partners {
-  img {
-    width: 200px;
-  }
+  margin-left: 50px;
+}
+
+.prevvy img {
+  margin-top: -26px;
+  width: 90px !important;
+}
+
+.partners img {
+  width: 150px;
+}
+
+.redhat {
+  margin-left: 100px !important;
+}
+
+.incluit {
+  margin-left: 15px !important;
+  margin-top: -30px;
+}
+
+.harriague {
+  margin-top: -50px;
+}
+
+.listPartners {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+.bg-partners-image {
+  background-image: url(https://static.pexels.com/photos/306198/pexels-photo-306198.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: -10px 0px 43px #ffffca;
+}
+
+.bg-partners {
+  background-color: rgba(255, 255, 202, 0.7);
+  padding: 10px 0 25px;
+  height: 100%;
 }
