@@ -8,10 +8,15 @@
     h2, p{
       color: #ffffca;
     }
-  }  
-  .title h1{
-    color: #ffffca;
   }
+  .title h1{
+    color: #333333;
+  }
+}
+
+.cd-location img {
+  max-height: 100% !important;
+  top: 0px !important;
 }
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -26,9 +31,9 @@
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 header {
@@ -115,16 +120,6 @@ header h1 {
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-}
-.cd-timeline-img img {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -20px;
-    margin-top: -20px;
 }
 .cd-timeline-img.cd-picture {
   background: #75ce66;
@@ -481,5 +476,11 @@ header h1 {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cd-timeline-content h2 {
+    font-size: 28px !important;
   }
 }

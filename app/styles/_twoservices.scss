@@ -1,0 +1,100 @@
+.twoservices {
+  height: 100% !important;
+  margin: 0;
+
+  .thumbnail {
+    border-radius: 0px;
+  }
+
+  .thumbnail .caption {
+    top: 200px;
+    position: relative;
+  }
+
+  .thumbnail h3 {
+    font-size: 5em;
+  }
+
+  .thumbnail p {
+    font-size: 2em;
+  }
+}
+
+.devops {
+  background-image: url("https://static.pexels.com/photos/30732/pexels-photo-30732.jpg");
+  background-size: cover;
+  height: 100%;
+  padding: 0px;
+
+  .thumbnail {
+    margin: auto;
+    text-align: center;
+    color: rgb(96,120,41) !important;
+    background: rgba(255,255,255,.7);
+    width: 100%;
+    height: 100%;
+  }
+
+  .thumbnail h3 {
+    font-size: 5em;
+  }
+
+  .thumbnail p {
+    font-size: 2em;
+  }
+}
+
+.frontend {
+  background-image: url("https://static.pexels.com/photos/30732/pexels-photo-30732.jpg");
+  background-size: cover;
+  height: 100%;
+  padding: 0px;
+
+  .thumbnail {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(96,120,41,.7);
+  }
+
+  .thumbnail h3 {
+    color: rgb(255,255,255) !important;
+  }
+
+  .thumbnail p {
+    color: rgb(255,255,255) !important;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .twoservices {
+    .thumbnail h3 {
+      font-size: 4em;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .twoservices {
+    .thumbnail h3 {
+      font-size: 2em;
+    }
+
+    .thumbnail p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .twoservices {
+    .thumbnail h3 {
+      font-size: 1.5em;
+    }
+
+    .thumbnail p {
+      font-size: 1.3em;
+    }
+  }
+}

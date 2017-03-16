@@ -2,7 +2,7 @@
 $email = $_POST['email'];
 $name = $_POST['name'];
 $text = $_POST['text-message'];
-$to = "info@dinocloudcomputing.com";
+$to = "lucas.borsatto@dinocloudconsulting.com";
 $subject = "Consulta Web Dino";
 $message = '<html>
           <head>
@@ -11,8 +11,8 @@ $message = '<html>
           <body>
           <h1>Nueva Consulta</h1>
             <p><strong>Nombre y Apellidos:</strong> '.$name.'</p>
-            <p><strong>Email:</strong> '.$email.'</p>        
-            <p><strong>Mensaje:</strong> '.$text.'</p>       
+            <p><strong>Email:</strong> '.$email.'</p>
+            <p><strong>Mensaje:</strong> '.$text.'</p>
           </body>
         </html>';
 $headers = "MIME-Version: 1.0" . "\r\n";
